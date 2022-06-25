@@ -1,0 +1,1 @@
+import numpy as npa = np.array([1, 2, 3])b = np.array([1, 2, 3])c = np.array([1, 2, 4])print((a == b).all())def fibonacci(n):    if n == 0 or n == 1 or n == 2:        return n    f1, f2, f3 = 1, 2, 3    i = 3    while i <= n:        f3 = f1 + f2        f1 = f2        f2 = f3        i += 1    return f3print(fibonacci(4))print("@@@@@@@@@@@@@@@@@@@@@")
